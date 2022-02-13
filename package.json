@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "A bit about me.",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --parallel"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/astridlyre/git_squash/issues"
   },
-  "homepage": "https://github.com/astridlyre/git_squash#readme"
+  "homepage": "https://github.com/astridlyre/git_squash#readme",
+  "devDependencies": {
+    "mocha": "^9.2.0"
+  }
 }
